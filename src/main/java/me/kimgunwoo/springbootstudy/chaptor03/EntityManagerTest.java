@@ -1,12 +1,19 @@
 package me.kimgunwoo.springbootstudy.chaptor03;
 
+
 import jakarta.persistence.EntityManager;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class EntityManagerTest
 {
-    @Autowired
+    final
     EntityManager em;
+
+    public EntityManagerTest(EntityManager em) {
+        this.em = em;
+    }
 
     public void example(){
         //엔티티 매니저가 엔티티를 관리하지 않는 상태(비영속 상태)
