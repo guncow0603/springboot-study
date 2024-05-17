@@ -1,7 +1,8 @@
-package me.kimgunwoo.springbootstudy.chaptor03;
+package me.kimgunwoo.springbootstudy.chaptor05;
 
 
 import jakarta.persistence.EntityManager;
+import me.kimgunwoo.springbootstudy.chaptor03.Member;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
