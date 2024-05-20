@@ -1,4 +1,4 @@
-package me.kimgunwoo.springbootstudy;
+package me.kimgunwoo.springbootstudy.domain;
 
 import jakarta.persistence.*;
 import lombok.Builder;
