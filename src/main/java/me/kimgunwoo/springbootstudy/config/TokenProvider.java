@@ -29,6 +29,9 @@ public class TokenProvider {
 
     //JWT 토큰 생성 메서드
     private String makeToken(Date expiry, User user) {
+        Date now = new Date();
+
+
         return Jwts.builder()
                 .setHeaderParam(Header.TYPE, Header.JWT_TYPE) //헤더 typ : JWT
                 //내용 iss : ajufresh@gmail.com(propertise 파일에서 설정한 값)
