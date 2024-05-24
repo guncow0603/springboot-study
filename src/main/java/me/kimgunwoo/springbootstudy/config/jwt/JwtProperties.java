@@ -1,4 +1,4 @@
-package me.kimgunwoo.springbootstudy.config;
+package me.kimgunwoo.springbootstudy.config.jwt;
 
 import lombok.Getter;
 import lombok.Setter;
