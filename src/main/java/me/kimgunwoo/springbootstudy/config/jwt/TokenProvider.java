@@ -1,10 +1,11 @@
-package me.kimgunwoo.springbootstudy.config;
+package me.kimgunwoo.springbootstudy.config.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Header;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import lombok.RequiredArgsConstructor;
+import me.kimgunwoo.springbootstudy.config.jwt.JwtProperties;
 import me.kimgunwoo.springbootstudy.domain.User;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
